@@ -11,7 +11,7 @@ from email.mime.text import MIMEText
 import time
 
 # --- Gemini Setup ---
-genai.configure(api_key="AIzaSyDNnK57qPbIrkrlS4LifYDf4MrGqRnsOgU")
+genai.configure(api_key="XYZ")
 model = genai.GenerativeModel("models/gemini-2.0-flash")
 
 def summarize_post_and_comments(post_text, comments_text):
@@ -77,9 +77,9 @@ create_db()
 # ========== Reddit Setup ==========
 
 reddit = praw.Reddit(
-    client_id='4mDp6Eplj1LvqtjW6Aa7CQ',
-    client_secret='3BSp8QhJoV5xEK7xxwwW2n2lEudLLQ',
-    user_agent='scrapper/1.0 (by u/Kind_Exchange_7003)'
+    client_id='XYZ',
+    client_secret='XYZ',
+    user_agent='XYZ'
 )
 
 # ========== Database Functions ==========
@@ -172,8 +172,8 @@ def scrape_and_store(keyword, upvotes, date_range, email, subscription_days):
 # ========== Send Email Function ==========
 
 def send_email(subject, body, to_email):
-    from_email = "geminilaser44@gmail.com"
-    from_password = "tgdyxsistukopbaq"
+    from_email = "XYZ"
+    from_password = "XYZ"
 
     msg = MIMEMultipart()
     msg['From'] = from_email
