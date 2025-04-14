@@ -18,3 +18,7 @@ This project automates the process of scraping Reddit posts based on user-define
    git clone https://github.com/Geminilaser/reddit-scraper-ai.git
    cd reddit-scraper-ai
 
+2. Copy the reddit_scraper.py files and paste it to your terminal.
+   Install required dependencies
+   Replace required credentials marked as XYZ
+   Write streamlit run reddit_scraper.py
