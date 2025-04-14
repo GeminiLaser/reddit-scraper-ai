@@ -15,6 +15,6 @@ This project automates the process of scraping Reddit posts based on user-define
 ## Setup Instructions:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/repository-name.git
-   cd repository-name
+   git clone https://github.com/Geminilaser/reddit-scraper-ai.git
+   cd reddit-scraper-ai
 
